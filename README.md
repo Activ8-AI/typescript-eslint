@@ -13,6 +13,84 @@
 <p align="center">
 👇
 </p>
+
+## 🧭 MAOS v1 Governance (Activ8-AI Fork)
+
+This fork operates under MAOS v1 (Modular Automation Operating System) governance framework, which establishes:
+
+- **Tier 3 Repository Classification**: Full governance controls with automated agent workflows
+- **Charter Compliance**: All changes must align with Charter Standards for security, modularity, and provider-agnostic design
+- **Fail-Closed Enforcement**: Required governance checks must pass before merge
+- **Human Authority**: All merges require explicit human approval
+- **Audit Trail**: Comprehensive logging and compliance tracking
+
+### Fork-Specific Governance
+
+This is an Activ8-AI maintained fork of [TypeScript ESLint](https://github.com/typescript-eslint/typescript-eslint).
+
+**Upstream Synchronization**:
+
+- Regular syncs with upstream TypeScript ESLint repository
+- Activ8-AI specific modifications tracked separately
+- Governance requirements apply to Activ8-AI changes only
+
+**Contribution Guidelines**:
+
+- Upstream contributions should be made to the original TypeScript ESLint repository
+- Activ8-AI specific features require governance approval
+- See main repository [Activ8-AI/mcp](https://github.com/Activ8-AI/mcp) for governance details
+
+For complete governance documentation, see:
+
+- **Main Repository**: [Activ8-AI/mcp](https://github.com/Activ8-AI/mcp) - Primary governance standards
+- **Upstream**: [typescript-eslint/typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) - Original project
+- **Documentation**: [typescript-eslint.io](https://typescript-eslint.io) - Official docs
+- **Main Branch Docs**: [main--typescript-eslint.netlify.app](https://main--typescript-eslint.netlify.app) - Canary release docs
+
+### High-Risk Powers
+
+This TypeScript linting and analysis tooling has specific governance requirements:
+
+- **Code Analysis**: Powerful static analysis of JavaScript and TypeScript codebases
+- **AST Manipulation**: Direct access to Abstract Syntax Tree for code transformation
+- **Custom Lint Rules**: Ability to create and enforce custom linting rules
+- **TypeScript Integration**: Deep integration with TypeScript compiler and type system
+- **CI/CD Integration**: Automated code quality gates in build pipelines
+- **Editor Integration**: Real-time code analysis in IDEs and editors
+- **Codebase Scanning**: Comprehensive scanning of entire codebases
+- **Auto-fixing**: Automated code modifications and fixes
+- **Configuration Management**: Control over linting rules and standards
+- **Parser Extensions**: Custom parsers and language support
+- **Plugin System**: Extensible plugin architecture
+- **Type Checking**: Integration with TypeScript type checking
+- **Build Process**: Impact on build times and developer workflow
+- **Code Standards**: Enforcement of coding standards across teams
+
+All high-risk operations are:
+
+- Gated behind required human approval
+- Logged for audit compliance
+- Subject to automated security scanning
+- Governed by principle of least privilege
+- Require secure credential management
+
+### Security Notes
+
+- **Custom Rules**: Review custom lint rules for security implications
+- **Auto-fixing**: Carefully test auto-fix rules to avoid unintended code changes
+- **CI/CD Integration**: Ensure lint failures don't block critical deployments unnecessarily
+- **Configuration Security**: Protect ESLint configuration files from unauthorized changes
+- **Plugin Vetting**: Review third-party plugins for security vulnerabilities
+- **Parser Safety**: Validate custom parsers don't introduce security issues
+- **Build Performance**: Monitor impact on build times and developer productivity
+- **Rule Disabling**: Restrict ability to disable important security rules
+- **Code Scanning**: Be aware of sensitive code exposure during scanning
+- **Access Control**: Limit who can modify linting configurations
+- **Version Control**: Track changes to linting rules and configurations
+- **Documentation**: Maintain clear documentation of custom rules and standards
+- **Testing**: Thoroughly test custom rules before deployment
+- **Dependency Management**: Keep dependencies updated for security patches
+
 <p align="center">
   See <strong><a href="https://typescript-eslint.io">typescript-eslint.io</a></strong> for documentation on the latest released version.
 </p>
